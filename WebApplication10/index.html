@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.js"></script>
+    <script type="text/javascript" src="Scripts/application.js"></script>
+</head>
+<body class="container-fluid">
+    <div class="row">
+        
+        <ul class="nav nav-tabs navbar-inverse">
+            <li role="presentation"><a href="#/">Home</a></li>
+            <li role="presentation"><a href="#/services">Services</a></li>
+            <li role="presentation"><a href="#/about">About</a></li>
+            <li role="presentation"><a href="#/products">Products</a></li>
+        </ul>
+
+    </div>
+    <div class="row">
+        <div ng-view>
+
+        </div>
+
+    </div>
+</body>
+</html>
