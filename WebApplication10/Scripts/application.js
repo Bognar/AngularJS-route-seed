@@ -11,6 +11,6 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'products.html'
     })
     $routeProvider.when('/', {
-        template: 'Main page'
+        templateUrl: 'main.html'
     })
 }]);
